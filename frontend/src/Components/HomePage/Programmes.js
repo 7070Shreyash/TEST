@@ -19,13 +19,14 @@ const Programmes = () => {
           activeKey={key}
           onSelect={(k) => setKey(k)}
           className="programmes-sections-tabs"
-          variant="pills"
+          variant="tabs"
+
         >
           <Tab
             eventKey="UG"
             title="UG Programmes"
             className="programmes-sections-child"
-            variant="danger"
+            variant="primary"
             
           >
             <div className="programmes-sections-tab-child-header">

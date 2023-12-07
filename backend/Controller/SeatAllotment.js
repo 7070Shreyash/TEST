@@ -80,7 +80,7 @@ export const Round = async (applicants, branches) => {
     })
 
     console.log(`${applicant.id} has been alloted ${alloted_branch_id}\n`);
-    return `23LNM${applicant.id} has been alloted ${alloted_branch_id}`;
+    return `24LNM${applicant.id} has been alloted ${alloted_branch_id}`;
   });
   return Promise.all(result);
 };

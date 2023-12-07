@@ -13,14 +13,14 @@ import Button from "react-bootstrap/esm/Button";
 const InstituteGlance = () => {
   return (
     <div className="container-ins" style = {{backgroundColor : "#e5fcf5"}} >
-      <h2 className="institute-title">Institute at a Glance</h2>
+      <h2 className="institute-title" style = {{ textDecoration : "underline" , textDecorationColor : "#000080" }}>Institute at a Glance</h2>
       <section className="institute-information-container-parent">
         <div className="institute-information-container-row">
           <div className="institute-information-card">
             <figure>
               <FaUsers />
             </figure>
-            <strong className="title">Faculty</strong>
+            <strong className="title" style = {{ textDecoration : "underline" , textDecorationColor : "#000080" }} >Faculty</strong>
             <br />
             <br />
             Faculty members at LNMIIT have excellent research credentials and
@@ -34,7 +34,7 @@ const InstituteGlance = () => {
             <figure>
               <FaBook />
             </figure>
-            <strong className="title">Research</strong>
+            <strong className="title" style = {{ textDecoration : "underline" , textDecorationColor : "#000080" }} >Research</strong>
             <br />
             <br />
             The LNMIIT, Jaipur focuses on the latest areas of science,
@@ -49,7 +49,7 @@ const InstituteGlance = () => {
             <figure>
               <FaLaptop />
             </figure>
-            <strong className="title">Internships & Placements</strong>
+            <strong className="title" style = {{ textDecoration : "underline" , textDecorationColor : "#000080" }} >Internships & Placements</strong>
             <br />
             <br />
             LNMIIT students have an outstanding offers of internship and
@@ -65,7 +65,7 @@ const InstituteGlance = () => {
             <figure>
               <FaMicrophone />
             </figure>
-            <strong className="title">Infrastructure</strong>
+            <strong className="title" style = {{ textDecoration : "underline" , textDecorationColor : "#000080" }} >Infrastructure  </strong>
             <br />
             <br />
             The LNMIIT, spread over 100-acre green campus, is at par with the
@@ -79,7 +79,7 @@ const InstituteGlance = () => {
             <figure>
               <FaFilm />
             </figure>
-            <strong className="title">
+            <strong className="title" style = {{ textDecoration : "underline" , textDecorationColor : "#000080" }} >
               Institute Accreditation and Ranking
             </strong>
             <br />
@@ -95,7 +95,7 @@ const InstituteGlance = () => {
             <figure>
               <FaSun />
             </figure>
-            <strong className="title">Life at LNMIIT</strong>
+            <strong className="title" style = {{ textDecoration : "underline" , textDecorationColor : "#000080" }} >Life at LNMIIT</strong>
             <br />
             <br />
             Students actively participate in institute's activity through

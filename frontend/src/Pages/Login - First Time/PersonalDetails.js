@@ -105,7 +105,7 @@ const PersonalDetails = () => {
               // onChange={(e) => handleError(e)}
             />
           </Form.Group>
-
+          
           <Form.Group as={Col}>
             <Form.Label>Last Name</Form.Label>
             <Form.Control
@@ -116,9 +116,11 @@ const PersonalDetails = () => {
               // onChange={(e) => handleError(e)}
             />
           </Form.Group>
-        </Row>
+        
 
-        <Row className="mb-3">
+          </Row>
+          
+          <Row className="mb-3">
           <Form.Group className="mb-3">
             <Form.Label>Father Full Name*</Form.Label>
             <Form.Control
@@ -129,9 +131,9 @@ const PersonalDetails = () => {
               // onChange={(e) => handleError(e)}
             />
           </Form.Group>
-        </Row>
+          </Row>
 
-        <Row className="mb-3">
+<Row className="mb-3">
           <Form.Group className="mb-3">
             <Form.Label>Address Line 1*</Form.Label>
             <Form.Control
@@ -148,7 +150,9 @@ const PersonalDetails = () => {
             <Form.Label>Address Line 2</Form.Label>
             <Form.Control ref={address_2} size="lg" placeholder="City, State" />
           </Form.Group>
+          </Row>
 
+<Row className="mb-3">
           <Form.Group as={Col} controlId="formGridZip">
             <Form.Label>Zip*</Form.Label>
             <Form.Control

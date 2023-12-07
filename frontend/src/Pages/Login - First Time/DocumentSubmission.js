@@ -25,7 +25,7 @@ const DocumentSubmission = () => {
         <Row className="mb-5">
           <Form.Group as={Col}>
             <Form.Label>Upload 10th Marksheet</Form.Label>
-            <Form.Control size="lg" type="file" />
+            <Form.Control  size="lg" type="file" />
           </Form.Group>
           </Row>
           <Row className="mb-5">

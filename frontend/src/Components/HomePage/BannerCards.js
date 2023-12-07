@@ -33,7 +33,7 @@ const BannerCards = () => {
           style={{backgroundColor : "#000080" ,
         margin : "40px"}}
         >
-          Apply Now - 2025
+          Apply Now - 2024
         </Button>
       </div>
       {/* <div className="cards">

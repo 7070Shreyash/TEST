@@ -8,7 +8,7 @@
   text-transform: uppercase;
   text-decoration: underline;
   text-underline-offset: 10px;
-  text-decoration-color: rgb(240, 69, 69);
+  text-decoration-color: #000080;
   font-size: x-large;
   padding-top: 8rem;
 }
@@ -60,7 +60,7 @@
 .title {
   font-size: medium;
   text-decoration: underline;
-  text-decoration-color: rgb(227, 129, 129);
+  text-decoration-color: #000080;
   text-underline-offset: 40%;
 }
 

@@ -21,7 +21,7 @@ const Login = ({ isAdmin = false }) => {
 
   // const [formData, setFormData] = useOutletContext();
 
-  const oldLogin = "/applicant/home";
+  const oldLogin = "/applicant/allotment";
   const newLogin = "/applicant/first_login";
 
   const fetchData = async (obj) => {

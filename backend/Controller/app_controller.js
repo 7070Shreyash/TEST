@@ -25,7 +25,7 @@ const SignUp = async (req, res) => {
         })
         .catch((err) => console.log(err));
 
-    const extended_id = "23LNM" + results.rows[0].id;
+    const extended_id = "24LNM" + results.rows[0].id;
     res.json(extended_id);
 }
 
@@ -38,7 +38,7 @@ const Login = async (req, res) => {
     };
     const { id, pass } = req.body.data;
   
-    if (id.slice(0, 5) === "23LNM") {
+    if (id.slice(0, 5) === "24LNM") {
       const { rows } = await pool.query("SELECT password FROM signup WHERE id=($1);", [
           id.slice(5, id.length),
         ])

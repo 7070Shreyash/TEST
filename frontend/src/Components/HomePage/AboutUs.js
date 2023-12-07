@@ -11,7 +11,7 @@ const AboutUs = () => {
         <section className="home-about-us" style={{backgroundColor : "#e5fcf5"}}>
             <div className="home-about-us-container">
                 <div className="home-about-us-title">
-                    <h2 className="home-about-us-h2">
+                    <h2 className="home-about-us-h2" >
                         ABOUT US
                     </h2>
                 </div>

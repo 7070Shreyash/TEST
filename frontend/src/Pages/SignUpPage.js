@@ -15,6 +15,7 @@ const SignUp = () => {
   const [isError, setIsError] = useState(false);
   const [applicationId, setApplicationId] = useState(null);
   const [phoneError, setPhoneError] = useState(false);
+  const [pwdError, setPwdError] = useState(false);
   const [pass, setPass] = useState({ pass: "", rePass: "" });
   //Use Ref Hooks
 
@@ -142,7 +143,7 @@ const SignUp = () => {
                   }
                 }}
               />
-              <Form.Text className="text-danger">
+              <Form.Text className="Enter Your 10-Digit Phone Numbertext-danger">
                 {phoneError && "Phone Number must be of 10-Digits"}
               </Form.Text>
             </Form.Group>
@@ -155,9 +156,20 @@ const SignUp = () => {
                 type="password"
                 placeholder="Type a Password"
                 onChange={(e) => {
-                  setPass({ ...pass, pass: e.target.value });
+                  if (
+                    e.target.value.length >= 7 &&
+                    e.target.value.length < 100
+                  ) {
+                    setPwdError(false);
+                    setPass({ ...pass, pass: e.target.value });
+                  } else {
+                    setPwdError(true);
+                  }
                 }}
               />
+              <Form.Text className="Password Length should be atleast 7-danger">
+                {pwdError && "Password length should be atleast 7"}
+              </Form.Text>
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label>Confirm Password</Form.Label>
