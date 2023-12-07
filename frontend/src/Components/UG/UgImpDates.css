@@ -1,0 +1,27 @@
+.ug-imp-dates-h3 {
+    border-left: 5px solid #d1252d;
+    color: #333;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 0.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.checkers {
+    background-color: red;
+    color: white;
+}
+
+.table-elemento {
+    padding: 8px;
+}
+
+.small-para {
+    margin-bottom: 1rem;
+}

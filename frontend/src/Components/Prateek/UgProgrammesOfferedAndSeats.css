@@ -1,0 +1,50 @@
+.ug-Main-Container {
+    align-items: center;
+    border: greenyellow;
+    padding-left: 25rem;
+    margin-top: 5rem;
+}
+
+.ug-table {
+    /* display:flex;
+    justify-content: space-around; */
+    border: greenyellow;
+    width: 100rem;
+    align-items: center;
+    font-size: large;
+    margin-bottom: 5rem;
+    /* font-size: 23px;
+    border-left: 5px solid #d1252d;
+    margin: 15px 0;
+    color: #333;
+    font-weight: 600;
+    padding-left: 10px; */
+}
+
+.ug-head {
+    width: 2rem;
+}
+
+.gray-bg {
+    background-color: rgba(196, 174, 174, 0.489);
+    border: #05050590;
+    border-style: solid;
+}
+
+.white-bg {
+    border: #05050590;
+    border-style: solid;
+
+}
+
+.table-head {
+    background-color: #d1252d;
+    color: #fff;
+    border: #05050590;
+    border-style: solid;
+}
+
+.seats {
+    border: #05050590;
+    border-style: solid;
+}

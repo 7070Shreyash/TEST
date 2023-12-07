@@ -1,0 +1,25 @@
+.login-title {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.login-form {
+  max-width: 120rem;
+  padding: 2rem;
+  border: 2px solid red;
+  margin: auto;
+  font-size: large;
+}
+
+.signup-title {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.signup-form {
+  max-width: 120rem;
+  padding: 2rem;
+  border: 2px solid red;
+  margin: auto;
+  font-size: large;
+}

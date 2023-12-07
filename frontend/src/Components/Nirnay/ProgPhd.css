@@ -1,0 +1,12 @@
+.phd-flexbx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.phd-flexbx .btn {
+    font-size: 14px;
+    padding: 12px 24px;
+    width: 33%;
+    margin-bottom: 10px;
+}

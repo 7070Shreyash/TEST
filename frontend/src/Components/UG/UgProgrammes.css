@@ -1,0 +1,86 @@
+.ug-programmes {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  font-size: 16px;
+  background-color: #f2f2f2;
+}
+
+.ug-programmes-container {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
+
+.ug-programmes-title {
+  position: relative;
+  text-align: center;
+  margin-bottom: 3em;
+
+}
+
+.ug-programmes-title-h2 {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.ug-programmes-title-h2::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 46%;
+  background: #f31620;
+  height: 2px;
+  width: 100px;
+}
+
+.nav-item>.nav-link {
+  color: #fff !important;
+  background-color: #fd0d0d !important;
+  margin: 1rem;
+}
+
+.nav-item>.nav-link:hover {
+  filter: brightness(80%);
+}
+
+.nav-item>.active {
+  filter: brightness(120%);
+  font-weight: bolder;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ug-programmes-section-tab-child-h2 {
+  font-size: 1.6em;
+  margin-bottom: 1rem;
+  text-align: left;
+  color: #000;
+  border-bottom: 1px solid #ccc;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(204, 204, 204);
+}
+
+.ug-programmes-section-tab-child-h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.ug-programmes-list-elements {
+  line-height: 2rem;
+  list-style: circle;
+  padding-bottom: 0.6rem;
+  text-align: justify;
+  width: auto;
+}

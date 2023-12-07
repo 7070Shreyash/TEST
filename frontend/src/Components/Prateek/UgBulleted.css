@@ -1,0 +1,13 @@
+.UG-bulleted-note-main{
+    margin-left: 40rem;
+    margin-right: 40rem; 
+    align-items: center;
+    width: 10rem;
+}
+.list-elements{
+    width: 80rem;
+    list-style-type: disc;
+    font-family: "Roboto", sans-serif;
+    color: #333333;
+    font-size: 16px;
+}

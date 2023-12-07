@@ -1,0 +1,43 @@
+.ug-regular-repeating-feature {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 16px;
+}
+
+/* .ug-regular-repeating-feature-container {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+} */
+
+.ug-regular-repeating-h3 {
+    border-left: 5px solid #d1252d;
+    color: #333;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 0.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.ug-regular-repeating-ul {
+    padding-left: 1em;
+    list-style: none;
+    line-height: 2em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.ug-regular-repeating-list-elements {
+    list-style-type: disc;
+}

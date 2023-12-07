@@ -1,0 +1,26 @@
+.para {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.photo>img {
+    width: 300%;
+    height: 300%;
+}
+
+.content-items {
+    margin: 1rem;
+    padding: 1rem;
+    flex-shrink: 1;
+}
+
+.expand-content {
+    width: 60%;
+    margin: auto;
+}
+
+.content-container {
+    max-width: fit-content;
+    display: flex;
+    flex-direction: row;
+}

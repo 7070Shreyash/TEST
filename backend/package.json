@@ -1,0 +1,34 @@
+{
+  "name": "student-admission-module",
+  "description": "A complete module for admitting students at LNMIIT",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "engines": {
+    "node": "16.15.1",
+    "npm": "8.19.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0"
+  },
+  "scripts": {
+    "start" : "node app.js",
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JainSourav30/Student-Admission-Module.git"
+  },
+  "keywords": [
+    "student-admission"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JainSourav30/Student-Admission-Module/issues"
+  },
+  "homepage": "https://github.com/JainSourav30/Student-Admission-Module#readme"
+}

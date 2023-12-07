@@ -1,0 +1,16 @@
+.allotment-container {
+  max-width: fit-content;
+  border: 2px solid red;
+  padding: 2rem;
+  margin: auto;
+}
+
+.allotment-container > button {
+  margin: 1rem;
+}
+
+.allotment-title {
+  margin: 1rem;
+  font-size: x-large;
+  font-weight: bolder;
+}

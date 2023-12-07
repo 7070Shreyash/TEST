@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.first-login-form-container {
+  max-width: 120rem;
+  padding: 2rem;
+  border: 2px solid red;
+  margin: auto;
+  font-size: large;
+}
+
+.form-progress {
+  margin-bottom: 2rem;
+}
+
+.error {
+  margin: 1rem;
+  color: red;
+  font-weight: bolder;
+}

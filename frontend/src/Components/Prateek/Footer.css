@@ -1,0 +1,70 @@
+.main-container-footer {
+  display: flex;
+  flex-direction: row;
+  height: 60rem;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  /* width:250rem; */
+}
+
+.sub-container-footer {
+  display: flex;
+  flex-direction: row;
+  padding: 5rem;
+  background-color: #333;
+  /* width:300rem; */
+
+}
+
+.email-footer {
+  font-size: 23px;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(249, 8, 32);
+  line-height: 0.2rem;
+}
+
+.contact_reach-footer {
+  font-size: 30px;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(249, 8, 32);
+  line-height: 0.2rem;
+}
+
+.contact_us-footer {
+  line-height: 0.1rem;
+  padding-bottom: 15px;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(249, 8, 32);
+  font-size: 30px;
+  padding-bottom: 15px;
+
+}
+
+.reach_us-footer {
+  font-size: 30px;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(249, 8, 32);
+  line-height: 0.1rem;
+  padding-bottom: 15px;
+
+}
+
+.left-para-footer {
+
+  margin-left: 13rem;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.5rem;
+}
+
+.right-para-footer {
+  margin-left: 10rem;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.5rem;
+}
+
+.image-footer {
+  color: #e11c25;
+  font-weight: 600;
+}

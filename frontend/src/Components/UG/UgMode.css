@@ -1,0 +1,123 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.banner-image-container .banner-image {
+  height: 100%;
+  width: 100%;
+}
+
+.banner-image-container {
+  position: absolute;
+  top: 1rem;
+  z-index: -1;
+}
+
+.cards {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 20rem;
+  overflow: hidden;
+  margin: 2rem 0;
+  color: rgb(26, 25, 25);
+  margin-bottom: 2%;
+}
+
+.card-item {
+  font-size: large;
+  background-color: rgb(59, 53, 53);
+  color: white;
+  height: 22rem;
+  width: 23%;
+  /* flex-grow: 1; */
+  padding: 0rem 2rem 2rem 2rem;
+  /* margin: 0.2%; */
+  border-radius: 1rem;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.card-item>figure {
+  margin-top: 1rem;
+  font-size: xx-large;
+}
+
+.card-item:hover {
+  z-index: 1;
+  transform: scale(1.15);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-item {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+.banner-image-container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: #555; */
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+
+.banner-image-container .btn:hover {
+  cursor: pointer;
+}
+
+.ug-mode {
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+  font-size: 16px;
+  /* background-color: #f2f2f2; */
+}
+
+.ug-mode-container {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
+
+.ug-mode-p {
+  text-align: justify;
+}
+
+.ug-mode-p-red {
+  text-align: justify;
+  color: red;
+}
+
+.ug-mode-container .btn {
+  margin-left: 43.5%;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.apply-button {
+  max-width: fit-content;
+  margin: auto;
+}
+
+.apply-button>button {
+  border: 2px solid white;
+  font-size: 2rem;
+}

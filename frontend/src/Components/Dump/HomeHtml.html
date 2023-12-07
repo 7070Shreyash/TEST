@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/fontawesome.min.css" />
+    <style>
+      .flex-container {
+        display: flex;
+        align-items: stretch;
+        align-content: center;
+        margin-top: 6rem;
+        /* justify-content:space-evenly; */
+      }
+      .flex-container1 {
+        display: flex;
+        height: 10rem;
+        justify-content: space-around;
+        flex-direction: row;
+        padding-top: 2rem;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        justify-content: space-around;
+        align-items: stretch;
+        margin-bottom: 5rem;
+      }
+
+      .flex-parent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap-reverse;
+      }
+
+      #firstpara {
+        color: white;
+        background-color: rgb(55, 54, 54);
+        border: 500px;
+        line-height: 1.6;
+        /* width:49.91%; */
+        font-size: larger;
+        /* height:700px; */
+        height: 35rem;
+        padding-left: 5rem;
+        padding-top: 5rem;
+        margin-bottom: 5rem;
+        /* padding-bottom: 5rem; */
+        font-size: larger;
+        /* padding: 34px 34px 0px 0px;  */
+      }
+      #secondpara {
+        color: white;
+        background-color: rgb(55, 54, 54);
+        border: 500px;
+        line-height: 1.6;
+        /* width:49.91%; */
+        font-size: large;
+        height: 35rem;
+        padding-left: 2.09rem;
+        padding-top: 5rem;
+        /* padding: 34px 34px 0px 0px; */
+      }
+      p {
+        padding-left: 40%;
+      }
+      .class {
+        font-size: 40px;
+      }
+      .title {
+        font-size: medium;
+        text-decoration: underline;
+        text-decoration-color: rgb(227, 129, 129);
+        text-underline-offset: 10px;
+        text-underline-position: left;
+      }
+      h2 {
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-color: rgb(240, 69, 69);
+        font-weight: 1000;
+        font-size: x-large;
+      }
+      .im {
+        /* width: 100px; */
+        width: rem;
+        height: rem;
+      }
+      #ic1 {
+        width: rem;
+        height: rem;
+      }
+      .cards {
+        display: flex;
+        margin: 0;
+        height: 15rem;
+        justify-content: center;
+        flex-direction: row;
+        /* padding:2rem; */
+        padding-top: 20rem;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        justify-content: center;
+        align-items: center;
+        /* align-self:center; */
+        align-content: flex-end;
+        margin-bottom: 1rem;
+        border: 2px solid red;
+        /* margin-left: 0;
+    margin-right: 0; */
+        border: 500px;
+        color: white;
+        /* background-color: rgb(50, 47, 47); */
+        background-image: url("image.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        /* flex-wrap: wrap-reverse; */
+      }
+      .card-item:hover {
+        z-index: 1;
+        transform: scale(1.15);
+        transition: all 0.3s;
+        cursor: pointer;
+      }
+      .card-item {
+        background-color: rgb(59, 53, 53);
+        color: white;
+        height: 7rem;
+        width: 18%;
+        padding: 2rem;
+        margin: 0.5%;
+        /* flex-grow: 1; */
+        border: 2px solid red;
+        text-align: center;
+
+        transition: all 0.3s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-parent">
+      <div class="cards">
+        <!-- <h1>Admissions 2023-2024</h1><br> -->
+        <div class="card-item">
+          <strong>NOooo</strong><br />
+          B.Tech./B.Tech.-M.Tech.(5 Year<br />
+          Integrated Dual Degree)
+        </div>
+        <div class="card-item" style="background-color: rgb(190, 33, 33)">
+          <strong>PG Engineering Admissions</strong><br />
+          (M.Tech./MS by Research)
+        </div>
+        <div class="card-item">
+          <strong>PG Science Admissions</strong><br />
+          (M.SC.)
+        </div>
+        <div class="card-item" style="background-color: rgb(190, 33, 33)">
+          <strong>Doctoral Admissions</strong><br />
+          (Ph.D.)
+        </div>
+      </div>
+      <h2>INSTITUTE&nbsp AT&nbsp A&nbsp GLANCE</h2>
+      <div class="flex-container1">
+        <footer>
+          <i
+            class="fa-sharp fa-solid fa-users-line fa-2x"
+            style="color: rgb(203, 13, 13); margin-top: 2rem"
+          ></i
+          ><br /><br /><strong class="title">Faculty</strong> <br /><br />
+          Faculty members at LNMIIT have excellent<br />
+          research credentials and extensive industry<br />
+          experience.
+        </footer>
+        <footer>
+          <i
+            class="fa-solid fa-book fa-2x"
+            style="color: rgb(203, 13, 13); margin-top: 2rem"
+          ></i
+          ><br /><br /><strong class="title">Research</strong><br /><br />
+          The LNMIIT, Jaipur focuses on the latest areas<br />
+          of science, technology and humanities for<br />
+          Teaching and research in its curriculum
+        </footer>
+        <footer>
+          <i
+            class="fa-solid fa-laptop fa-2x"
+            style="color: rgb(203, 13, 13); margin-top: 2rem"
+          ></i
+          ><br /><br /><strong class="title">Internships & Placements</strong
+          ><br /><br />
+          LNMIIT students have an outstanding offers of<br />
+          internship and placements.
+        </footer>
+        <footer>
+          <i
+            class="fa-solid fa-microphone fa-2x"
+            style="color: rgb(203, 13, 13); margin-top: 2rem"
+          ></i
+          ><br /><br /><strong class="title">Infrastructure</strong><br /><br />
+          The LNMIIT, spread over 100-acre green campus,<br />
+          is at par with the best technological institutions<br />
+          in the country.
+        </footer>
+        <footer>
+          <i
+            class="fa-solid fa-film fa-2x"
+            style="color: rgb(203, 13, 13); margin-top: 2rem"
+          ></i
+          ><br /><br /><strong class="title"
+            >Institute Accreditation and Ranking</strong
+          ><br /><br />
+          The LNMIIT is a deemed-to be university under<br />
+          UGC and Accredited 'A' grade by NAAC.<br />
+          (Second-cycle of re-accreditation is in process)
+        </footer>
+        <footer>
+          <i
+            class="fa-solid fa-sun fa-2x"
+            style="color: rgb(203, 13, 13); margin-top: 2rem"
+          ></i
+          ><br /><br /><strong class="title">Life at LNMIIT</strong><br /><br />
+          Students actively participate in institute's activity<br />
+          through Gymkhana, councils and clubs.
+        </footer>
+        <div class="flex-container">
+          <footer id="firstpara">
+            <strong>REACH US</strong><br /><br />
+            From New-Delhi: Well connected by road, rail and air<br />
+            From Mumbai, Chennai and Kolkata: Well connected by rail and air<br />
+            Approximate distance to LNMIIT from: Railway Station is 17.5 km,
+            Airport<br />
+            is 23.2 km & Bus Stand is 16.4 km
+          </footer>
+          <footer id="secondpara">
+            <strong>CONTACT US</strong><br /><br />
+            The LNM Institute of Information Technology<br />
+            Rupa ki Nangal, Post-Sumel, Via-Jamdoli Jaipur-302031,
+            (Rajasthan)<br />
+            INDIA<br />
+            Contact No. (Toll Free): 1800-180-6566<br />
+            E-mail Id:<br />
+            ugadmissions@lnmiit.ac.in (UG Admission),<br />
+            mtech-ms.admissions@lnmiit.ac.in (PG Engineering Admissions),<br />
+            msc.admissions@lnmiit.ac.in (PG Science Admissions),<br />
+            phdadmissions@lnmiit.ac.in (Doctoral Admissions)
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

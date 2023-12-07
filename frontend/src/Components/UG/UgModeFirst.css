@@ -1,0 +1,36 @@
+.ug-mode-first {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    font-size: 16px;
+    /* background-color: #f2f2f2; */
+}
+
+.ug-mode-first-container {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
+
+.ug-mode-first-title {
+    position: relative;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.ug-mode-first-title-h2 {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.ug-mode-first-title-h2::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 46%;
+    background: #f31620;
+    height: 2px;
+    width: 100px;
+}
